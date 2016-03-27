@@ -1,0 +1,17 @@
+package bukualamat;
+class BukuAlamat{
+public static void main(String[] args) {
+        data mhs1=new data("Muh Raushan Fikry","Jln. Bendungan Jatiluhur No.42","082291670041",
+                "fikrymuhammad1@gmail.com");
+        System.out.println("Buku Alamat ");
+        System.out.println("-------------------------------------------------");
+        System.out.println("|       Atribut       |        Deskripsi        |");
+        System.out.println("-------------------------------------------------");
+        System.out.println("| Name                | "+ mhs1.getName()+"\t|");
+        System.out.println("| Address             | "+ mhs1.getAddress()+"\t\t|");
+        System.out.println("| Phone               | "+ mhs1.getPhone()+"\t\t|"  );
+        System.out.println("| Email               | "+ mhs1.getEmail() +"\t|" );
+        System.out.println("-------------------------------------------------");
+    }
+}
+
